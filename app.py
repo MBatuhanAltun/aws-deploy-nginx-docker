@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def home():
-    return "Hello from the Cloud Intern Project!"
+    return "Hello World!"
 
 @app.get("/health")
 def health():
