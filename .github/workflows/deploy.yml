@@ -24,4 +24,6 @@ jobs:
             fi
             cd aws-deploy-nginx-docker
             git pull
+            docker-compose down
             docker-compose up --build -d
+
