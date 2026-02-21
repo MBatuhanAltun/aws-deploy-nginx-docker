@@ -2,7 +2,7 @@
 
 Small Python web app (Flask) running in Docker, served by Nginx, deployed on AWS EC2 with GitHub Actions.
 
-## Architecture (simple)
+## Architecture 
 - Flask app runs on port 8080
 - Nginx listens on port 80 and forwards to the app
 - EC2 runs both containers
